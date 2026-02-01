@@ -28,6 +28,16 @@ O projeto foi construído seguindo as melhores práticas de organização de dad
 
 ---
 
+## 🔒 Segurança e Experiência do Usuário
+
+Para simular a entrega de um projeto real de Business Intelligence, o arquivo foi configurado com foco na integridade dos dados e na experiência de navegação:
+
+* **Dashboard Protegido:** A aba principal está bloqueada para edição. Isso evita a alteração acidental de fórmulas e gráficos, garantindo que o painel funcione conforme o esperado durante a interação.
+* **Camadas de Dados Ocultas:** As planilhas de **Bases** e **Cálculos** estão ocultadas por padrão. O objetivo é oferecer uma interface limpa, onde o usuário visualiza apenas o que é essencial para a tomada de decisão.
+* **Liberdade de Exploração:** Caso deseje analisar a estrutura técnica, o usuário possui total liberdade para desbloquear o dashboard e reexibir as abas ocultas (clicando com o botão direito nas abas inferiores e selecionando "Reexibir").
+
+---
+
 ## 🛠️ Tecnologias e Técnicas Aplicadas
 
 * **Tabelas Dinâmicas Avançadas:** Para sumarização de grandes volumes de dados de vendas.
